@@ -8,7 +8,9 @@ x(end) % gives the value of the last
 x(:) % print all values of the array into the screen
 
 
-plot(pi*x,sin(pi*x)) 
+%plot(pi*x,sin(pi*x)) 
 xlabel('\pi *x')
 ylabel('sin(\pi *x)')
 title('Test Plot')
+
+x= linspace(2,5,20)
