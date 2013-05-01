@@ -1,7 +1,7 @@
 x = linspace(1,.5,10);
-y_1=x.*x;
+y=x.*x;
 
-y_2=1./x;
+y=1./x;
 
 plot(x,x.*x)
 plot(x,x.^2)
