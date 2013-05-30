@@ -5,3 +5,7 @@ plot(x,y)
 xlabel('x-axis (m)')
 ylabel('Gaussian')
 title('myGaussian')
+
+figure(5)
+y=myGauss(x+5,sigma)+myGauss(x,sigma);
+plot(x,y)

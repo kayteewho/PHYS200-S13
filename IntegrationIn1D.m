@@ -12,7 +12,7 @@ I2 = dx*trapz(y)        %trapz again.
 xSquared = @(x) x.^2;
 tol = 1e-8;
 I3 = quad(xSquared, 0,20,tol)       %using quadratic rule
-%I4 = quad1(xSquared, 0, 20, tol)    %%%quad1 not defined
+I4 = quadl(xSquared, 0, 20, tol)    
 
 Igauss= quad(@(x) myGauss(x,0.2), -2, 2)
 
