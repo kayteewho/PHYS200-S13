@@ -61,4 +61,4 @@ surf(xnew,ynew,Vnew-pointPotential(xnew+2,ynew-2,1e-9))
 Vdipole=dipolePotential(x,y,1e-9,2);
 surf(x,y,Vdipole)
 
-jj=find(
+%jj=
