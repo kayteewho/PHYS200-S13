@@ -28,4 +28,5 @@ xi=1:dx:2;             %limits of the rod a=1 to b=2
 [E_xi,E_yi] = pointField(x0-xi,y0,lambda*dx);
 %integrate along charges on x-axis
 Ex=trapz(E_xi)
-Ey=trapz(E_yi)
+Ey=trapz(E_yi)          
+%%%%answer was off by a tens place

@@ -29,4 +29,5 @@ y = myGauss(x,sigma); %function
 plot(x,y)       
 %help myGauss
 
+%a)
 
